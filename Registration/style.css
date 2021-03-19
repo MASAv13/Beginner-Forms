@@ -1,0 +1,45 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:url(images/3.jpg);
+    width: fit-content;
+    padding: 20px 40px;
+    position:absolute;
+    opacity: 0.7;
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px #000000;
+    background-size: 570px;
+}
+.reg{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    height: 25px;
+}
+body{
+    display: flex;
+    align-items: center;
+    background-image: url(images/2.jpg);
+    justify-content: center;
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+    padding: 10px;
+    border-radius: 20px;
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: linear-gradient(to top,silver,white);
+    font-weight: bold;
+    height: 30px;
+    width: 110px;
+}
